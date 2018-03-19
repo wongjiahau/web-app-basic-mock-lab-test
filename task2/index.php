@@ -17,6 +17,8 @@ while(!feof($file)) {
     echo "</tr>";
 }
 echo "</table>";
+fclose($file);
 ?>
+<a href='insert.php'>Insert new record</a>
 </body>
 </html>
